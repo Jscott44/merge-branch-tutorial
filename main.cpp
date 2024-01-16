@@ -1,7 +1,21 @@
 #include <iostream>
 
+struct Foo
+{
+    int n;
+    Foo()
+    {
+        std::cout << "Enter n: "; // no flush needed
+        std::cin >> n;
+    }
+};
+ 
+Foo f; // static object
+
+
 int main()
 {
-	std::cout << "hi Version 2!\n";	
+	std::cout << "Hi I am Version 3!\n";	
+	std::cout << "f.n is " << f.n << '\n';
 }
 
