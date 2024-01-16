@@ -2,6 +2,6 @@
 
 int main()
 {
-	std::cout << "hi!\n";	
+	std::cout << "hi Version 2!\n";	
 }
 
